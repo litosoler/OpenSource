@@ -1,4 +1,4 @@
-FROM python:3-alpine
+FROM python:3.12.0a1-alpine
 
 # Install packages
 RUN apk add --update --no-cache supervisor
